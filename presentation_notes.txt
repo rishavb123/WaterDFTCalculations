@@ -1,0 +1,26 @@
+ - I'm Rishav Bhagat and I will be talking about calculating the reaction energies of the 
+   2H20 --> 2H2 + O2
+
+- Before we dive into the code, I'd like to discuss some of the building blocks that allowed us
+  to write this simple script to do something as complicated as calculating the reaction energy
+  of a reaction.
+
+- At a conceptual level . . . 
+	Basic chemistry concepts --> atoms, molecules, reactions
+	Understand what DFT is doing even if we do not understand how
+		Solving Schrodinger's equation using various approximations for complex systems
+- From the software development setup side of things . . . 
+	Python
+	Linux Operating System
+	PACE Supercomputer
+	Environment Setup with Libraries as Shreya talked about
+	Login with SSH / File Transfer through SFTP
+    
+- And of cource, we are dependent on the ASE and SPARCH libraries
+	I won't go into too much detail into these libraries since Yi has already mentioned them,
+	but at a surface level, the ASE library allows us to represent chemical particles like 
+	atoms and molecules as software objects and the SPARC library gives us an interface to 
+	perform Density Functional Theory calculations without actually having to code in all
+	the required math.
+
+- Now diving into the code and a quick demo of the code
