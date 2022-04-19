@@ -1,1 +1,1 @@
-@conda activate amptorch
+@conda activate amptorch_env
